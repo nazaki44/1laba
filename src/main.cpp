@@ -1,6 +1,6 @@
 #include <Arduino.h>
 
-// Условная компиляция для разных плат
+// разные платы
 #if defined(BOARD_UNO_R4)
   #define BUTTON_PIN 2
   #define LED_PIN LED_BUILTIN
